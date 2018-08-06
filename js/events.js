@@ -7,7 +7,7 @@ function getIt () {
 }
 
 
-function getIt () {
+function frameIt () {
   $('p').on('click', function(event) {
     alert('Hey!')
   })
