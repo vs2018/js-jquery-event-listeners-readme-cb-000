@@ -8,8 +8,8 @@ function getIt () {
 
 
 function frameIt () {
-  $('p').on('load', function(event) {
-    alert('Hey!')
+  $('img').on('load', function(event) {
+    $( "img" ).addClass( "myClass yourClass" );
   })
 }
 
