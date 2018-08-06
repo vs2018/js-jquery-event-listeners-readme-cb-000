@@ -16,8 +16,12 @@ function frameIt () {
 function pressIt () {
   $('form').on('keydown', function(event) {
 
+    if (eent.which == 83) {
 
-    
+
+
+    if ($( "input:first" ).val() === "correct") {
+   alert('your form is going to be submitted now');
   })
 }
 
